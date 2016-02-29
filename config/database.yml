@@ -88,10 +88,10 @@ test:
 #
 production:
   <<: *default
-  database: testing_app_production
+  database: testing_app
   username: testing_app
   password: <%= ENV['TESTING_APP_DATABASE_PASSWORD'] %>
-  username: geetika
 
   # The password associated with the postgres role (username).
-  password: geetika123
+  password: tessing_app
+  host: testingapp.co8qv2nxyfdo.us-west-2.rds.amazonaws.com:5432
